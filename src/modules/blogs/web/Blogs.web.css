@@ -1,0 +1,180 @@
+.container {
+  background-image: url("https://lenscorp.ai/_next/static/media/Gradient_bg_section4.71fb66b2.jpg");
+
+  background-color: #fdfbf2;
+  flex: 1 1;
+  background-size: 100% 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  padding-bottom: 4rem;
+}
+.BlogSec_aboutContainer__haMPF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5rem 0;
+}
+.BlogSec_headingCont__i8adB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+}
+.BlogSec_heading__JHCZt {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2rem 0 0;
+}
+.BlogSec_underline__HUhgz {
+    width: 165px;
+    height: 8px;
+    border-radius: 1000px;
+    background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+}
+.BlogSec_aboutContent__I_YH9 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(400px);
+    border: 2px solid #ff5d5b;
+    padding: 2rem 3rem;
+    border-radius: 16.433px;
+    transition: .3s;
+    transform: scale(1.05);
+
+}
+.BlogSec_aboutContent__I_YH9:hover {
+    transform: scale(1.05);
+    transition: transform .5s ease;
+}
+
+
+.BlogSec_imgCont__S_EUb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.BlogSec_black_white__CzCsH {
+    width: 430px;
+    height: 395px;
+    border-radius: 10px;
+    transition: .3s;
+    color: transparent;
+}
+.BlogSec_section2Content__SSvaZ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2.5rem;
+}
+.BlogSec_section2Txt__6u51y {
+    color: #000;
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin: 0 0 2rem;
+}
+.BlogSec_section2par__nCnTL {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: .2rem;
+    opacity: .8;
+    padding: .2rem;
+    width: 90%;
+    line-height: 1.6;
+}
+
+.BlogSec_cardSty__e08E9 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.BlogPageStructure_main_container_b__w6Oyn {
+    display: flex;
+    background-color: transparent;
+    backdrop-filter: blur(400px);
+    border-radius: 1rem;
+    border: 2px solid #ff5d5b;
+    align-items: center;
+    margin: 1rem 0;
+    justify-content: center;
+    padding: 2rem;
+    /* width: 1100px; */
+    width: 85%;
+    height: 500px;
+}
+.BlogPageStructure_sub_container_b__hsfyh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.BlogPageStructure_sub_container_b__hsfyh img {
+    border-radius: 1rem;
+    width: 430px;
+    height: 430px;
+    object-fit: cover;
+    color: transparent;
+}
+.BlogPageStructure_sub_container_r__W892j {
+    background-color: transparent;
+    color: #000;
+    padding: 2rem;
+    width: 50rem;
+}
+.BlogPageStructure_cat__yQu36 {
+    color: #ff5d5b;
+    font-weight: bolder;
+    letter-spacing: .1rem;
+}
+.BlogPageStructure_title_b__U_Rzz {
+    font-size: 2.4rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.BlogPageStructure_card_b__ykldn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.BlogPageStructure_per__XCjO1 {
+    filter: invert(48%) sepia(34%) saturate(2688%) hue-rotate(329deg) brightness(112%) contrast(91%);
+    height: 2rem;
+    width: 2rem;
+    padding: .4rem;
+    color: transparent;
+}
+.Buttons_readButtonBlog__yJfUQ {
+    color: #ff5d5b;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    padding: 0;
+    position: relative;
+    top: 0;
+    transition: top .5s ease;
+}
