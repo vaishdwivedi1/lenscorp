@@ -24,8 +24,8 @@ const HeroSectionMobile = React.memo(() => {
 export const MetricsSectionMobile = React.memo(() => {
   return (
     <div className="cardContentMobile">
-        {serviceContents.map((singleCard) => (
-          <div className="cardBox">
+        {serviceContents.map((singleCard,index) => (
+          <div className="cardBox" key={index}>
             <div className="firstCard"></div>
             <div className="headerCardMobile">
               <div>
@@ -55,8 +55,8 @@ export const TeamMembersMobile = React.memo(() => {
 
       </div>
       <div className="Research_sub_containermobile_mini4__887Hc">
-        {teamMembers.map((team) => (
-          <div>
+        {teamMembers.map((team,index) => (
+          <div key={index}>
             <div className="ResearcherCard_reCard__l_YbD">
               <div className="ResearcherCard_pic__FExyx">
                 <img alt="researcher" loading="lazy" width="280" height="350" decoding="async" data-nimg="1" src={team.image} />

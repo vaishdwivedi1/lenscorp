@@ -101,8 +101,8 @@ export const TeamMembers = React.memo(() => {
         <div className="Research_underline__Tm2On"></div>
       </div>
       <div className="Research_sub_container_mini4__887Hc">
-        {teamMembers.map((team) => (
-          <div>
+        {teamMembers.map((team,index) => (
+          <div key={index}>
             <div className="ResearcherCard_reCard__l_YbD">
               <div className="ResearcherCard_pic__FExyx">
                 <img alt="researcher" loading="lazy" width="280" height="350" decoding="async" data-nimg="1" src={team.image} />

@@ -103,8 +103,8 @@ export const ServicesMobile = React.memo(() => {
       </div>
       <p className="serviceSubHeadingmobile">We provide Artificial Intelligence Services</p>
       <div className="cardContentMobile">
-        {serviceContents.map((singleCard) => (
-          <div className="cardBox">
+        {serviceContents.map((singleCard,index) => (
+          <div className="cardBox" key={index}>
             <div className="firstCard"></div>
             <div className="headerCardMobile">
               <div>
@@ -158,16 +158,16 @@ export const WhyUsMobile = React.memo(() => {
       <p className="NewSolutionsmobile_subHead__BowW4">AI-driven solutions backed by science</p>
       <p className="NewSolutions_para__6H5A6">Every piece of AI technology shipped from LENS is thoroughly benchmarked via rigorous evaluations. With a global network of experts and academicians, we guarantee the most accurate and robust solutions in the market.</p>
       <div style={{ flexDirection: "column" }} className="NewSolutions_tickList__fnJHb">
-        {whyusReasons.map((item) => (
-          <div className="NewSolutions_ai__9lohG">
+        {whyusReasons.map((item,index) => (
+          <div key={index} className="NewSolutions_ai__9lohG">
             <AiOutlineCheck className="NewSolutions_check__YG5PZ" height="1em" width="1em" />
             {item}
           </div>
         ))}
       </div>
       <div className="NewSolutions_cardCont__7h1aC">
-        {whyUs.map((item) => (
-          <div style={{ position: "relative" }}>
+        {whyUs.map((item,index) => (
+          <div key={index} style={{ position: "relative" }}>
             <div className="NewSolutions_green__g0z_8"></div>
             <div className="NewSolCard_aiCard__mpgzf">
               <div className="NewSolCard_aiHead__VNvMd">{item.title}</div>
@@ -308,8 +308,8 @@ export const OurClients = React.memo(() => {
     <div className="NewClient_sec6__EgRtw">
       <h1 className="NewClient_section6Heading__TGGXE">We Work With Amazing Clients</h1>
       <div className="NewClient_image_section___eIHp" style={{ flexDirection: "column", alignItems: "center" }}>
-        {ourClients.map((item) => (
-          <div>
+        {ourClients.map((item,index) => (
+          <div key={index}>
             <img alt="gen" loading="lazy" width="200" height="113" decoding="async" src={item.img} />
           </div>
         ))}
