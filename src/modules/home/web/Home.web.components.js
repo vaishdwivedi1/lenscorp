@@ -16,7 +16,7 @@ export const HeaderWeb = React.memo(() => {
   return (
     <div className={` header`}>
       <div className={` headerContents`}>
-        <Image src={logo} />
+        <img src={logo} />
 
         <div className="menuList">
           <Link target="_blank " className={isActive("https://makemyweb.ai/en") ? "active" : ""} href="https://makemyweb.ai/en">
@@ -39,7 +39,7 @@ export const HeaderWeb = React.memo(() => {
 export const HeroSectionWeb = React.memo(() => {
   return (
     <div className="hero">
-      <Image src={heroSection} className="heroImage" />
+      <img src={heroSection} className="heroImage" />
       <div className="heroContent">
         <h1 className="heroHeading">We are at the forefront of AI</h1>
         <p className="heroSubHeading">
@@ -61,7 +61,7 @@ export const AboutUsWeb = React.memo(() => {
       </div>
       <div className="aboutContent">
         <div id="heroImg" className="aboutContentImg">
-          <Image alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="aboutimg" src={aboutSection} />
+          <img alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="aboutimg" src={aboutSection} />
         </div>
         <div className="aboutSectionTwo">
           <h3 className="aboutSectionTwoHeading">Welcome To LENS</h3>
@@ -115,14 +115,14 @@ export const BannerSectionWeb = React.memo(() => {
     <div className="TruAi_container__EcAuw">
       <section className="TruAi_box__2njKB">
         <div className="TruAi_one___aV2n">
-          <Image alt="vector" loading="lazy" width="333" height="329" decoding="async" data-nimg="1" className="TruAi_img__YVzSg" src={homeBannerImage} />
+          <img alt="vector" loading="lazy" width="333" height="329" decoding="async" data-nimg="1" className="TruAi_img__YVzSg" src={homeBannerImage} />
         </div>
         <div className="TruAi_two__qNoyh">
           <div className="TruAi_title__QqHUE">
             Meet
             <div className="TruAi_truBox__NlP0T">
               <div className="TruAi_title2__v1zmy">Tru-AI</div>
-              <Image alt="underline" loading="lazy" width="200" height="24" decoding="async" data-nimg="1" className="TruAi_underline__TiyMp" src={homeBannerUnderline} />
+              <img alt="underline" loading="lazy" width="200" height="24" decoding="async" data-nimg="1" className="TruAi_underline__TiyMp" src={homeBannerUnderline} />
             </div>
           </div>
           <div className="TruAi_dcd__EYU_D">Design. Create. Deploy.</div>
@@ -182,7 +182,7 @@ export const WhyUsWeb = React.memo(() => {
             <div className="NewSolutions_green__g0z_8"></div>
             <div className="NewSolCard_aiCard__mpgzf">
               <div className="NewSolCard_aiHead__VNvMd">{item.title}</div>
-              <Image alt="sol card img" loading="lazy" width="251" height="91" decoding="async" data-nimg="1" className="NewSolCard_aiImg__Z1_ML NewSolCard_imageAnimation__SDTKn" src={item.img} />
+              <img alt="sol card img" loading="lazy" width="251" height="91" decoding="async" data-nimg="1" className="NewSolCard_aiImg__Z1_ML NewSolCard_imageAnimation__SDTKn" src={item.img} />
               <div className="NewSolCard_aiBody__NQ8L_">{item.body}</div>
             </div>
           </div>
@@ -336,7 +336,7 @@ export const OurClients = React.memo(() => {
       <div className="NewClient_image_section___eIHp">
         {ourClients.map((item,index) => (
           <div key={index}>
-            <Image alt="gen" loading="lazy" width="200" height="113" decoding="async" src={item.img} />
+            <img alt="gen" loading="lazy" width="200" height="113" decoding="async" src={item.img} />
           </div>
         ))}
       </div>
@@ -433,7 +433,7 @@ export const ContactUsWeb = React.memo(() => {
         </form>
       </div>
       <div className="NewContact_right__N6g_I">
-        <Image alt="map" loading="lazy" width="720" height="538" decoding="async" data-nimg="1" className="NewContact_img__GUuU5" src={mapImage} />
+        <img alt="map" loading="lazy" width="720" height="538" decoding="async" data-nimg="1" className="NewContact_img__GUuU5" src={mapImage} />
       </div>
     </div>
   );
@@ -445,7 +445,7 @@ export const FooterWeb = React.memo(() => {
         <div className="NewFooter_topBox__qITBs">
           <div className="NewFooter_one__FZicU">
             <a href="#">
-              <Image alt="logo" src={logo} loading="lazy" width="80" height="70" decoding="async" data-nimg="1" className="NewFooter_img__N_Vqq" />
+              <img alt="logo" src={logo} loading="lazy" width="80" height="70" decoding="async" data-nimg="1" className="NewFooter_img__N_Vqq" />
             </a>
             <span className="NewFooter_today__0jVMb">Tomorrow's Vision, Today!</span>
             <div className="NewFooter_iconBox__id2RT">
