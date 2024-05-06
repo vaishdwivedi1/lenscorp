@@ -2,7 +2,7 @@ import React from 'react'
 import HomePageStyle from './Home.mobile.css'
 import { AboutUsMobile, BannerSectionMobile, ContactUsMobile, FAQsMobile, FooterMobile, HeaderMobile, HeroSectionMobile, OurBlogsMobile, OurClients, OurStatsMobile, OurVisionMobile, ServicesMobile, WhyUsMobile } from './Home.mobile.components'
 
-function HomeMobile() {
+const  HomeMobile = () => {
   return (
     <div style={{gap:'2rem'}} className={`${HomePageStyle.container}`}>
         <HeaderMobile/>
@@ -22,5 +22,6 @@ function HomeMobile() {
     </div>
   )
 }
+HomeMobile.displayName= "HomeMobile"
 
 export default HomeMobile

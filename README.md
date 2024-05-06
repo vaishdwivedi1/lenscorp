@@ -8,7 +8,9 @@ Technologies Used
 1 Next.js: Next.js is a React framework for building server-side rendered (SSR) and statically generated web applications.
 2 Tailwind CSS: Tailwind CSS is a utility-first CSS framework for rapidly building custom designs without having to leave your HTML.
 
-Getting Started Prerequisites
+Getting Started
+
+Prerequisites
 
 Ensure that you have Node.js and npm (or yarn) installed on your local machine.
 

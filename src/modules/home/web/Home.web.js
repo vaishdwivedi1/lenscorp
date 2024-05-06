@@ -2,7 +2,7 @@ import React from 'react'
 import HomePageStyle from './Home.web.css'
 import { AboutUsWeb, BannerSectionWeb, ContactUsWeb, FAQsWeb, FooterWeb, HeaderWeb, HeroSectionWeb, OurBlogsWeb, OurClients, OurStats, OurVisionWeb, ServicesWeb, WhyUsWeb } from './Home.web.components'
 
-function HomeWeb() {
+const  HomeWeb = ()=> {
   return (
     <div className={`${HomePageStyle.container}`}>
         <HeaderWeb/>
@@ -22,5 +22,5 @@ function HomeWeb() {
     </div>
   )
 }
-
+HomeWeb.displayName= "HomeWeb"
 export default HomeWeb

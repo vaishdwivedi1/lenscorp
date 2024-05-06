@@ -4,7 +4,7 @@ import { FooterWeb, HeaderWeb } from "@/modules/home/web/Home.web.components";
 import { blogBackground } from "@/Constants.js/Images";
 import { BlogSecondSection, BlogTitle } from "./Blogs.web.components";
 
-function BlogsWeb() {
+const  BlogsWeb = ()=> {
   return (
     <div>
       <HeaderWeb />
@@ -30,5 +30,6 @@ function BlogsWeb() {
     </div>
   );
 }
+BlogsWeb.displayName= "BlogsWeb"
 
 export default BlogsWeb;

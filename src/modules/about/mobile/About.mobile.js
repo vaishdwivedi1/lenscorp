@@ -3,7 +3,7 @@ import AboutPageStyle from './About.mobile.css'
 import {  AboutUsMobile, FooterMobile, HeaderMobile  } from '@/modules/home/mobile/Home.mobile.components'
 import HeroSectionMobile, {  MetricsSectionMobile, TeamMembersMobile } from './About.mobile.components'
 
-function AboutMobile() {
+const  AboutMobile = () => {
   return (
     <div style={{gap:'2rem', backgroundColor:'#fff'}} >
         <HeaderMobile/>
@@ -15,5 +15,5 @@ function AboutMobile() {
     </div>
   )
 }
-
+AboutMobile.displayName= "AboutMobile"
 export default AboutMobile

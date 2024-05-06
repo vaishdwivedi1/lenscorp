@@ -4,7 +4,7 @@ import {  FooterWeb, HeaderWeb} from '@/modules/home/web/Home.web.components'
 import HeroSection, { MetricsSection, TeamMembers } from './About.web.components'
 import AboutPageStyle from "./About.web.css";
 
-function HomeWeb() {
+const  HomeWeb = () => {
   return (
     <div className={`${HomePageStyle.container}`}>
         <HeaderWeb/>
@@ -16,5 +16,6 @@ function HomeWeb() {
     </div>
   )
 }
+HomeWeb.displayName= "HomeWeb"
 
 export default HomeWeb
