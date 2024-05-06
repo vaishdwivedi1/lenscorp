@@ -1,5 +1,6 @@
 import { blogFirstSectionImage, forward, pen, time } from "@/Constants.js/Images";
 import React from "react";
+import Image from "next/image";
 
 export const BlogMobileTitle = React.memo(() => {
   return (
@@ -10,7 +11,7 @@ export const BlogMobileTitle = React.memo(() => {
       </div>
       <div  style={{width:"100%", flexDirection:"column", padding:"0rem"}} className="BlogSec_aboutContent__I_YH9">
         <div style={{backgroundColor:"none"}} id="heroImg" className="BlogSec_imgCont__S_EUb">
-          <img  alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="BlogSec_black_white__CzCsH" src={blogFirstSectionImage} />
+          <Image  alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="BlogSec_black_white__CzCsH" src={blogFirstSectionImage} />
         </div>
         <div style={{ padding:"0.5rem", margin:"0rem"}}className="BlogSec_section2Content__SSvaZ">
           <h3 style={{textAlign:"center", fontSize:"30px", padding:"0.5rem", margin:"0rem"}} className="BlogSec_section2Txt__6u51y">Drafted In-House</h3>
@@ -26,7 +27,7 @@ export const BlogMobileSecondSection = React.memo(() => {
     <div style={{padding:"0.5rem",}}className="BlogSec_cardSty__e08E9">
       <div style={{width:"100%",gap:'1rem', flexDirection:"column", padding:"0.5rem",margin:'1rem', width:"100%", height:'100%'}}  class="BlogPageStructure_main_container_b__w6Oyn">
         <div class="BlogPageStructure_sub_container_b__hsfyh">
-          <img
+          <Image
           style={{width:"350px",  height:"350px",backgroundColor:"none"}} 
             alt="gen"
             loading="lazy"
@@ -42,9 +43,9 @@ export const BlogMobileSecondSection = React.memo(() => {
           <div class="BlogPageStructure_cat__yQu36">Artificial Intelligence </div>
           <div class="BlogPageStructure_title_b__U_Rzz">Trustworthy AI</div>
           <div class="BlogPageStructure_card_b__ykldn">
-            <img alt="gen" loading="lazy" width="512" height="512" decoding="async" data-nimg="1" class="BlogPageStructure_per__XCjO1" src={pen} />
+            <Image alt="gen" loading="lazy" width="512" height="512" decoding="async" data-nimg="1" class="BlogPageStructure_per__XCjO1" src={pen} />
             <h6>Kriti Singh</h6>
-            <img alt="gen" loading="lazy" width="512" height="512" decoding="async" data-nimg="1" class="BlogPageStructure_per__XCjO1" src={time} />
+            <Image alt="gen" loading="lazy" width="512" height="512" decoding="async" data-nimg="1" class="BlogPageStructure_per__XCjO1" src={time} />
             <h6>May 21, 2021</h6>
           </div>
           <p>One of the challenges with the pursuit of AI is the incongruity between the fantasy concep t of artificial intelligence and the real-wor ld, practical applications of AI. In movies and s cience fiction novels, AI systems are sketched...</p>
@@ -53,7 +54,7 @@ export const BlogMobileSecondSection = React.memo(() => {
             <a href="/blogs/Trustworthy AI">
               <button class="Buttons_readButtonBlog__yJfUQ">
                 Read More
-                <img
+                <Image
                   alt="gen"
                   loading="lazy"
                   width="512"

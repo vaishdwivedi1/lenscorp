@@ -1,6 +1,7 @@
 import { teamMembers, teamPhoto } from "@/Constants.js/Images";
 import React from "react";
 import AboutPageStyle from "./About.web.css";
+import Image from "next/image";
 
 const HeroSection = React.memo(() => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = React.memo(() => {
       </div>
       <div className="NewAboutSec_aboutContent__GaAFw">
         <div id="heroImg" className="NewAboutSec_imgCont__nhgRf">
-          <img alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="NewAboutSec_black_white__6x8Af" src={teamPhoto} />
+          <Image alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="NewAboutSec_black_white__6x8Af" src={teamPhoto} />
         </div>
         <div className="NewAboutSec_section2Content__o3D1E">
           <h3 className="NewAboutSec_section2Txt__2hN9d">Welcome To LENS</h3>
@@ -105,7 +106,7 @@ export const TeamMembers = React.memo(() => {
           <div key={index}>
             <div className="ResearcherCard_reCard__l_YbD">
               <div className="ResearcherCard_pic__FExyx">
-                <img alt="researcher" loading="lazy" width="280" height="350" decoding="async" data-nimg="1" src={team.image} />
+                <Image alt="researcher" loading="lazy" width="280" height="350" decoding="async" data-nimg="1" src={team.image} />
               </div>
               <div className="ResearcherCard_content__PC1Dd">
                 <div className="ResearcherCard_head__WJgXu">{team.name}</div>

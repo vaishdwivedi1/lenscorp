@@ -10,6 +10,7 @@ import HomePageStyle from "./Home.mobile.css";
 import { whyusReasons } from "../web/Home.web.components";
 import { AiOutlineCheck } from "react-icons/ai";
 import { GoArrowRight } from "react-icons/go";
+import Image from "next/image";
 
 export const HeaderMobile = React.memo(() => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,7 +19,7 @@ export const HeaderMobile = React.memo(() => {
       <nav className="NewNavbar_nav_block__Kt2BG">
         <div>
           <Link className="imgLink" href="/">
-            <img alt="logo" loading="lazy" width="80" height="70" decoding="async" data-nimg="1" src={logo} />
+            <Image alt="logo" loading="lazy" width="80" height="70" decoding="async" data-nimg="1" src={logo} />
           </Link>
         </div>
       </nav>
@@ -57,7 +58,7 @@ export const HeaderMobile = React.memo(() => {
 export const HeroSectionMobile = React.memo(() => {
   return (
     <div className="hero">
-      <img src={heroSection} className="heroImage" />
+      <Image src={heroSection} className="heroImage" />
       <div className="heroContentMobile">
         <h1 className="heroHeadingMobille">We are at the forefront of AI</h1>
         <Link href="/about">
@@ -76,7 +77,7 @@ export const AboutUsMobile = React.memo(() => {
       </div>
       <div className="aboutContentMobile">
         <div id="heroImg" className="aboutContentImg">
-          <img alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="aboutimg" src={aboutSection} />
+          <Image alt="about" fetchPriority="high" width="400" height="400" decoding="async" data-nimg="1" className="aboutimg" src={aboutSection} />
         </div>
         <div className="aboutSectionTwo">
           <h3 className="aboutSectionTwoHeading">Welcome To LENS</h3>
@@ -132,7 +133,7 @@ export const BannerSectionMobile = React.memo(() => {
           Meet
           <div className="TruAi_truBox__NlP0T">
             <div className="TruAi_title2__v1zmy">Tru-AI</div>
-            <img alt="underline" loading="lazy" width="200" height="24" decoding="async" data-nimg="1" className="TruAi_underline__TiyMp" src={homeBannerUnderline} />
+            <Image alt="underline" loading="lazy" width="200" height="24" decoding="async" data-nimg="1" className="TruAi_underline__TiyMp" src={homeBannerUnderline} />
           </div>
         </div>
         <div className="TruAi_dcd__EYU_D">Design. Create. Deploy.</div>
@@ -171,7 +172,7 @@ export const WhyUsMobile = React.memo(() => {
             <div className="NewSolutions_green__g0z_8"></div>
             <div className="NewSolCard_aiCard__mpgzf">
               <div className="NewSolCard_aiHead__VNvMd">{item.title}</div>
-              <img alt="sol card img" loading="lazy" width="251" height="91" decoding="async" data-nimg="1" className="NewSolCard_aiImg__Z1_ML NewSolCard_imageAnimation__SDTKn" src={item.img} />
+              <Image alt="sol card img" loading="lazy" width="251" height="91" decoding="async" data-nimg="1" className="NewSolCard_aiImg__Z1_ML NewSolCard_imageAnimation__SDTKn" src={item.img} />
               <div className="NewSolCard_aiBody__NQ8L_">{item.body}</div>
             </div>
           </div>
@@ -310,7 +311,7 @@ export const OurClients = React.memo(() => {
       <div className="NewClient_image_section___eIHp" style={{ flexDirection: "column", alignItems: "center" }}>
         {ourClients.map((item,index) => (
           <div key={index}>
-            <img alt="gen" loading="lazy" width="200" height="113" decoding="async" src={item.img} />
+            <Image alt="gen" loading="lazy" width="200" height="113" decoding="async" src={item.img} />
           </div>
         ))}
       </div>
@@ -394,7 +395,7 @@ export const ContactUsMobile = React.memo(() => {
         </form>
       </div>
       <div className="NewContactmobile_right__N6g_I">
-        <img alt="map" loading="lazy" width="720" height="538" decoding="async" data-nimg="1" className="NewContact_img__GUuU5" src={mapImage} />
+        <Image alt="map" loading="lazy" width="720" height="538" decoding="async" data-nimg="1" className="NewContact_img__GUuU5" src={mapImage} />
       </div>
     </div>
   );
@@ -406,7 +407,7 @@ export const FooterMobile = React.memo(() => {
         <div className="NewFootermobile_topBox__qITBs">
           <div className="NewFootermobile_one__FZicU">
             <Link href="/">
-              <img alt="logo" loading="lazy" width="80" height="70" decoding="async" data-nimg="1" className="NewFooter_img__N_Vqq" src={logo} />
+              <Image alt="logo" loading="lazy" width="80" height="70" decoding="async" data-nimg="1" className="NewFooter_img__N_Vqq" src={logo} />
             </Link>
             <span className="NewFooter_today__0jVMb">Tomorrow's Vision, Today!</span>
             <div className="NewFooter_iconBox__id2RT">
